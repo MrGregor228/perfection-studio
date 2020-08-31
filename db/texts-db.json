@@ -1,160 +1,158 @@
-[
-    {
-        "ruSingleTags": {
-            "logo": "Perfection Studio",
-            "hero-subtitle": "Фриланс компания",
-            "hero-title": "Perfection Studio",
-            "hero-description": "Разработка сайтов для малого и среднего бизнеса. У нас можно заказать дизайн и верстку небольшого сайта или лендинга.",
-            "hero-button": "Консультация",
-            "wave-btn__text": "Консультация",
-            "themes__header": "Выберите тему",
-            "lang__header":"Выберите язык",
-            "form-title": "Можете просто оставить заявку, я позвоню вам сегодня",
-            "contacts-policy": "Политика конфиденциальности"
-        },
-        "ruMultipleTags": {
-            "section-title": [
-                "Наша команда",
-                "Со мной удобно работать",
-                "Последние проекты",
-                "Свяжитесь со мной"
-            ],
-            "teammae__caption": [
-                "Григорий Каданер",
-                "Александр Гуран",
-                "Денис Тухто"
-            ],
-            "teammae__description": [                
-                "Front-End разработчик, Web дизайнер",
-                "WordPress специалист, Front-End разработчик",
-                "SEO оптимизатор, Front-End разработчик"
-            ],
-            "features-title": [
-                "По договору",
-                "Точно в срок",
-                "Ценник под вас",
-                "Премежуточные итоги",
-                "Хостинг и домен",
-                "Не брошу после сдачи"
-            ],
-            "features-text": [
-                "Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.",
-                "В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.",
-                "Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.",
-                "Показываю работу поэтапно, а не в последий момент перед крайним сроком.",
-                "Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.",
-                "Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции."
-            ],
-            "project-title": [
-                "Сайт строительной фирмы “Велстрой”",
-                "Сайт строительной фирмы A3Express",
-                "Сайт строительной фирмы A3Express"
-            ],
-            "project-subtitle": [
-                "Срок",
-                "Цена",
-                "Отзыв клиента",
-                "Срок",
-                "Цена",
-                "Отзыв клиента",
-                "Срок",
-                "Цена",
-                "Отзыв клиента"
-            ],
-            "project-paragraph": [
-                "4 рабочих дня",
-                "14 000 рублей",
-                "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке",
-                "4 рабочих дня",
-                "14 000 рублей",
-                "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке",
-                "4 рабочих дня",
-                "14 000 рублей",
-                "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке"
-            ],
-            "contacts-title": [
-                "Телефон",
-                "Почта",
-                "Соцсети"
-            ]
-        },
-        "enSingleTags": {
-            "logo": "Perfection Studio",
-            "hero-subtitle": "Freelance company",
-            "hero-title": "Perfection Studio",
-            "hero-description": "Website development for small and medium businesses. You can order the design and layout of a small website or landing page from us.",
-            "hero-button": "Consultation",
-            "wave-btn__text": "Consultation",
-            "themes__header": "Choose a theme",
-            "lang__header":"Choose language",
-            "form-title": "You can just leave a request, I will call you today",
-            "contacts-policy": "Privacy policy"
-        },
-        "enMultipleTags": {
-            "section-title": [
-                "Our teammates",
-                "It is convenient to work with me",
-                "Recent projects",
-                "Get into contact with me"
-            ],
-            "teammae__caption": [
-                "Gregory Kadaner",
-                "Alex Huran",
-                "Denis Tukhto"
-            ],
-            "teammae__description": [
-                "Front-End Developer, Web Designer",
-                "Front-End/WordPress Developer",
-                "Front-End Developer, SEO-optimizer"
-            ],
-            "features-title": [
-                "Under contract",
-                "In time",
-                "Price tag for you",
-                "Subtotals",
-                "Hosting and domain",
-                "I will not leave you after surrender"
-            ],
-            "features-text": [
-                "I will provide all documents for accounting: contracts, invoices and acts. I work as an individual entrepreneur without VAT.",
-                "The contract stipulates my responsibility for the duration of the project. If I am late, I pay a forfeit.",
-                "If you do not have a typical project, I will calculate the price for the work and explain how the price is calculated.",
-                "I show the work in stages, not at the last moment before the deadline.",
-                "If we have agreed on the price of the project, it includes everything: domain and hosting for a year + SSL certificate.",
-                "I will teach you or your employee how to use the site, write down video instructions."
-            ],
-            "project-title": [
-                "The site of the construction company “Velstroy”",
-                "Construction company A3Express website",
-                "Construction company A3Express website"
-            ],
-            "project-subtitle": [
-                "Term",
-                "Price",
-                "Customer feedback",
-                "Term",
-                "Price",
-                "Customer feedback",
-                "Term",
-                "Price",
-                "Customer feedback"
-            ],
-            "project-paragraph": [
-                "4 working days",
-                "14,000 rubles",
-                "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents.",
-                "4 working days",
-                "14,000 rubles",
-                "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents.",
-                "4 working days",
-                "14,000 rubles",
-                "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents."
-            ],
-            "contacts-title": [
-                "Telephone",
-                "E-mail",
-                "Social networks"
-            ]
-        }
+[{
+    "ruSingleTags": {
+        "logo": "Perfection Studio",
+        "hero-subtitle": "Фриланс компания",
+        "hero-title": "Perfection Studio",
+        "hero-description": "Разработка сайтов для малого и среднего бизнеса. У нас можно заказать дизайн и верстку небольшого сайта или лендинга.",
+        "hero-button": "Консультация",
+        "wave-btn__text": "Консультация",
+        "themes__header": "Выберите тему",
+        "lang__header": "Выберите язык",
+        "form-title": "Можете просто оставить заявку, я позвоню вам сегодня",
+        "contacts-policy": "Политика конфиденциальности"
+    },
+    "ruMultipleTags": {
+        "section-title": [
+            "Наша команда",
+            "С нами удобно работать",
+            "Последние проекты",
+            "Свяжитесь с нами"
+        ],
+        "teammae__caption": [
+            "Григорий Каданер",
+            "Александр Гуран",
+            "Денис Тухто"
+        ],
+        "teammae__description": [
+            "Front-End разработчик, Web дизайнер",
+            "WordPress специалист, Front-End разработчик",
+            "SEO оптимизация, Front-End разработчик"
+        ],
+        "features-title": [
+            "По договору",
+            "Точно в срок",
+            "Ценник под вас",
+            "Премежуточные итоги",
+            "Хостинг и домен",
+            "Не брошу после сдачи"
+        ],
+        "features-text": [
+            "Предоставим все документы для бухгалтерии: договоры, счета и акты. Работаем как ИП без НДС.",
+            "В договоре прописана наша ответственность за срок проекта. Если просрочим — платим неустойку.",
+            "Если у вас нетиповой проект, сделаем рассчет цены за работу и объясним, как складывается цена.",
+            "Показываем работу поэтапно, а не в последий момент перед крайним сроком.",
+            "Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.",
+            "Научим вас или вашего сотрудника пользоваться сайтом, запишем видео-инструкции."
+        ],
+        "project-title": [
+            "Сайт строительной фирмы “Велстрой”",
+            "Сайт строительной фирмы A3Express",
+            "Сайт строительной фирмы A3Express"
+        ],
+        "project-subtitle": [
+            "Срок",
+            "Цена",
+            "Отзыв клиента",
+            "Срок",
+            "Цена",
+            "Отзыв клиента",
+            "Срок",
+            "Цена",
+            "Отзыв клиента"
+        ],
+        "project-paragraph": [
+            "4 рабочих дня",
+            "14 000 рублей",
+            "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке",
+            "4 рабочих дня",
+            "14 000 рублей",
+            "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке",
+            "4 рабочих дня",
+            "14 000 рублей",
+            "Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке"
+        ],
+        "contacts-title": [
+            "Телефон",
+            "Почта",
+            "Соцсети"
+        ]
+    },
+    "enSingleTags": {
+        "logo": "Perfection Studio",
+        "hero-subtitle": "Freelance company",
+        "hero-title": "Perfection Studio",
+        "hero-description": "Website development for small and medium businesses. You can order the design and layout of a small website or landing page from us.",
+        "hero-button": "Consultation",
+        "wave-btn__text": "Consultation",
+        "themes__header": "Choose a theme",
+        "lang__header": "Choose language",
+        "form-title": "You can just leave a request, I will call you today",
+        "contacts-policy": "Privacy policy"
+    },
+    "enMultipleTags": {
+        "section-title": [
+            "Our teammates",
+            "It is convenient to work with me",
+            "Recent projects",
+            "Get into contact with me"
+        ],
+        "teammae__caption": [
+            "Gregory Kadaner",
+            "Alex Huran",
+            "Denis Tukhto"
+        ],
+        "teammae__description": [
+            "Front-End Developer, Web Designer",
+            "Front-End/WordPress Developer",
+            "Front-End Developer, SEO-optimizer"
+        ],
+        "features-title": [
+            "Under contract",
+            "In time",
+            "Price tag for you",
+            "Subtotals",
+            "Hosting and domain",
+            "I will not leave you after surrender"
+        ],
+        "features-text": [
+            "I will provide all documents for accounting: contracts, invoices and acts. I work as an individual entrepreneur without VAT.",
+            "The contract stipulates my responsibility for the duration of the project. If I am late, I pay a forfeit.",
+            "If you do not have a typical project, I will calculate the price for the work and explain how the price is calculated.",
+            "I show the work in stages, not at the last moment before the deadline.",
+            "If we have agreed on the price of the project, it includes everything: domain and hosting for a year + SSL certificate.",
+            "I will teach you or your employee how to use the site, write down video instructions."
+        ],
+        "project-title": [
+            "The site of the construction company “Velstroy”",
+            "Construction company A3Express website",
+            "Construction company A3Express website"
+        ],
+        "project-subtitle": [
+            "Term",
+            "Price",
+            "Customer feedback",
+            "Term",
+            "Price",
+            "Customer feedback",
+            "Term",
+            "Price",
+            "Customer feedback"
+        ],
+        "project-paragraph": [
+            "4 working days",
+            "14,000 rubles",
+            "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents.",
+            "4 working days",
+            "14,000 rubles",
+            "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents.",
+            "4 working days",
+            "14,000 rubles",
+            "I liked working with Artyom, because he was always in touch and offered his solutions when we came to a dead end with the design. I needed closing documents for accounting, and Artem is that rare freelancer who has everything in order with the documents."
+        ],
+        "contacts-title": [
+            "Telephone",
+            "E-mail",
+            "Social networks"
+        ]
     }
-]
+}]
