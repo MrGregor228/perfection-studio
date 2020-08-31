@@ -3,21 +3,28 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: #20202d;
   margin: 0;
   color: #fff;
   font-family: "Roboto", sans-serif;
   /* My style */
-  transition: background-color .3s linear;
-  transition: .2s linear;
+  transition: background-color 0.3s linear;
+  transition: 0.2s linear;
 }
 
 .opacity-color-change {
   opacity: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-  transition: color .3s linear;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  transition: color 0.3s linear;
 }
 
 .container {
@@ -109,17 +116,25 @@ h1,h2,h3,h4,h5,h6,p {
   max-height: 400px;
   background-color: transparent;
   -webkit-animation: bouncing 1s alternate 1.25s infinite;
-          animation: bouncing 1s alternate 1.25s infinite;
+  animation: bouncing 1s alternate 1.25s infinite;
 }
 
 @-webkit-keyframes bouncing {
-  0%{bottom: -10px;}
-  100%{bottom: 10px;}
+  0% {
+    bottom: -10px;
+  }
+  100% {
+    bottom: 10px;
+  }
 }
 
 @keyframes bouncing {
-  0%{bottom: -10px;}
-  100%{bottom: 10px;}
+  0% {
+    bottom: -10px;
+  }
+  100% {
+    bottom: 10px;
+  }
 }
 
 .hero-avatar img {
@@ -343,12 +358,10 @@ h1,h2,h3,h4,h5,h6,p {
   font-size: 15px;
   line-height: 18px;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #a5a5a5;
   margin-top: 72px;
 }
-
-
 
 /* My styles */
 
@@ -356,9 +369,9 @@ h1,h2,h3,h4,h5,h6,p {
   box-shadow: 0 0 10px lightgray;
   z-index: 999;
   position: fixed;
-  bottom:2em;
+  bottom: 2em;
   left: 2em;
-  width:60px;
+  width: 60px;
   height: 60px;
   border-radius: 30px;
   overflow: hidden;
@@ -367,7 +380,7 @@ h1,h2,h3,h4,h5,h6,p {
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition:.25s linear;
+  transition: 0.25s linear;
 }
 .cross {
   display: none;
@@ -381,11 +394,10 @@ h1,h2,h3,h4,h5,h6,p {
   display: block;
 }
 
-
 .page-controls button {
-  border:none;
+  border: none;
   background-color: #fff;
-  outline:none;
+  outline: none;
   height: 100%;
   width: 100%;
   font-size: 20px;
@@ -394,7 +406,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 .right-top {
   top: 2em;
-  left: auto;  
+  left: auto;
   right: 2em;
 }
 
@@ -405,46 +417,49 @@ h1,h2,h3,h4,h5,h6,p {
   align-items: center;
   z-index: 998;
   position: fixed;
-  top:0px;
+  top: 0px;
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0,0, .9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
-  transition: left .3s linear;
+  transition: left 0.3s linear;
 }
 .page-control__settings.shown {
   left: 0;
 }
-.themes__header, .lang__header {
+.themes__header,
+.lang__header {
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.themes, .langs {
+.themes,
+.langs {
   display: flex;
   flex-direction: row;
 }
-.theme:not(:first-child), .lang:not(:first-child) {
+.theme:not(:first-child),
+.lang:not(:first-child) {
   margin-left: 15px;
 }
-.theme button, .lang button {
-  bottom:0;
+.theme button,
+.lang button {
+  bottom: 0;
   width: 40px;
   height: 40px;
   cursor: pointer;
-  border:1px solid gray;
+  border: 1px solid gray;
   border-radius: 50%;
   overflow: hidden;
-  
 }
 .theme {
   position: relative;
-  bottom:0;
-  transition: .2s linear;
+  bottom: 0;
+  transition: 0.2s linear;
 }
-.theme:hover  {
-  bottom:5px;
+.theme:hover {
+  bottom: 5px;
 }
 
 .theme-default button {
@@ -462,16 +477,16 @@ h1,h2,h3,h4,h5,h6,p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('../img/langs/ru.png');
-  transition:.2s linear;
+  background-image: url("../img/langs/ru.png");
+  transition: 0.2s linear;
 }
 .lang-en button {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('../img/langs/en.png');
-  transition:.2s linear;
+  background-image: url("../img/langs/en.png");
+  transition: 0.2s linear;
 }
 
 .lang-ru button:after {
@@ -479,7 +494,7 @@ h1,h2,h3,h4,h5,h6,p {
   color: white;
   font-weight: bold;
   opacity: 0;
-  transition: .2s linear;
+  transition: 0.2s linear;
   background-color: #000;
   padding: 5px;
   border-radius: 30px;
@@ -492,7 +507,7 @@ h1,h2,h3,h4,h5,h6,p {
   color: white;
   font-weight: bold;
   opacity: 0;
-  transition: .2s linear;
+  transition: 0.2s linear;
   background-color: #000;
   padding: 5px;
   border-radius: 30px;
@@ -508,9 +523,9 @@ h1,h2,h3,h4,h5,h6,p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transition: .2s linear;
+  transition: 0.2s linear;
   z-index: -1;
 }
 .lang button:hover:before {
@@ -523,13 +538,13 @@ h1,h2,h3,h4,h5,h6,p {
   bottom: 5px;
 }
 
-
 button:focus {
-  outline:none;
+  outline: none;
   box-shadow: none;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 .teammates-section {
@@ -549,10 +564,10 @@ button, a {
 .teammae__caption {
   font-size: 20px;
   font-weight: bold;
-  text-align:center;
-  width:-webkit-max-content;
-  width:-moz-max-content;
-  width:max-content;
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   margin-right: auto;
   margin-left: auto;
 }
@@ -568,7 +583,7 @@ button, a {
 }
 
 .teammae__description {
-  text-align:center;
+  text-align: center;
 }
 
 .teammates-section .teammates-wrapper .teammate {
@@ -580,17 +595,17 @@ button, a {
   max-width: 100%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .hero-header {
     margin-bottom: 50px;
   }
-  .hero-content  {
+  .hero-content {
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
   }
   .hero-text {
     order: 2;
-    text-align:center;
+    text-align: center;
     margin-top: 30px;
   }
   .hero-avatar {
@@ -600,21 +615,21 @@ button, a {
     order: 1;
   }
   .section-title {
-    text-align:center;
+    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
   }
   .teammates-section .teammates-wrapper .teammate {
     flex-basis: 50%;
   }
-  .features .section-title{
+  .features .section-title {
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
     margin-bottom: 0px;
   }
   .features-block {
-    padding:15px;
+    padding: 15px;
   }
   .features-item {
     flex-basis: 50%;
@@ -630,7 +645,7 @@ button, a {
   }
 
   .section.projects > .container > .section-title {
-    text-align:center;
+    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     margin-bottom: 40px;
@@ -646,7 +661,7 @@ button, a {
     margin-bottom: 20px;
   }
   footer h2 {
-    text-align:center;
+    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -667,7 +682,7 @@ button, a {
   }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .hero-avatar {
     width: 250px;
     height: 250px;
@@ -703,7 +718,7 @@ button, a {
   border-radius: 0 0 1rem 1rem;
   justify-content: center;
   align-items: center;
-  transition: all .8s ease .2s;
+  transition: all 0.8s ease 0.2s;
   text-decoration: none;
   overflow: hidden;
 }
@@ -714,7 +729,7 @@ button, a {
   letter-spacing: 3px;
   font-weight: bold;
   z-index: 1;
-  transition:color .2s linear;
+  transition: color 0.2s linear;
 }
 .wrapper .wave-btn:hover .wave-btn__text {
   color: white;
@@ -725,12 +740,13 @@ button, a {
   width: 280px;
   background-color: #4973ff;
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
-  transition: all .8s ease;
+  transition: all 0.8s ease;
   top: 0;
   left: 0;
 }
-.wrapper .wave-btn .wave-btn__waves:after, .wrapper .wave-btn .wave-btn__waves:before {
-  content: '';
+.wrapper .wave-btn .wave-btn__waves:after,
+.wrapper .wave-btn .wave-btn__waves:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 50%;
@@ -742,13 +758,13 @@ button, a {
   background-color: #fff;
   border-radius: 48%;
   -webkit-animation: waves 5s infinite linear;
-          animation: waves 5s infinite linear;
+  animation: waves 5s infinite linear;
 }
 .wrapper .wave-btn .wave-btn__waves:after {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 44%;
   -webkit-animation: waves 10s infinite linear;
-          animation: waves 10s infinite linear;
+  animation: waves 10s infinite linear;
 }
 .wrapper .wave-btn:hover .wave-btn__waves {
   top: -50px;
