@@ -1,355 +1,539 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Perfection Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Perfection Studio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-</head>
-
-<body>
-  <header class="hero">
-    <div class="container">
-      <div class="hero-header">
-        <h3 class="logo">Perfection Studio</h3>
-        <div class="social-links">
-          <a href="https://github.com/KingOfAllK1ngs" class="social-link" target="_blank"><img
-              src="img/social/github.svg" alt="github" /></a>
-
-          <a href="https://twitter.com/DenisTukhto" class="social-link" target="_blank"><img
-              src="img/social/twitter.svg" alt="twitter" /></a>
-
-          <a href="https://www.instagram.com/dead.inside.perfection.studio/" class="social-link" target="_blank"><img
-              src="img/social/instagram.svg" alt="instagram" /></a>
-          <a href="https://www.facebook.com/TukhtoDenis/" class="social-link" target="_blank"><img
-              src="img/social/facebook.svg" alt="fb" /></a>
-        </div>
-        <!-- /.social-links -->
-      </div>
-      <!-- /.hero-header -->
-
-      <div class="hero-content">
-        <div class="hero-text">
-          <span class="hero-subtitle" data-aos="fade-left" data-aos-delay="200">Фриланс компания</span>
-          <h1 class="hero-title" data-aos="fade-left" data-aos-delay="400">Perfection Studio</h1>
-          <p class="hero-description" data-aos="fade-left" data-aos-delay="600">Разработка сайтов для малого и среднего
-            бизнеса. У нас можно заказать дизайн и верстку небольшого сайта или лендинга.</p>
-          <button class="button hero-button" data-aos="fade-left" data-aos-delay="800">
-            Консультация
-          </button>
-        </div>
-        <!-- /.hero-text -->
-        <div class="hero-avatar" data-aos="zoom-in" data-aos-delay="1400"><img src="img/logo.png" alt=""></div>
-        <!-- /.hero-avatar -->
-      </div>
-      <!-- /.hero-content -->
-    </div>
-    <!-- /.container -->
-  </header>
-
-
-  <div class="page-controls">
-    <button><span class="cogs block"><i class="fas fa-cogs"></i></span><span class="cross"><i
-          class="fal fa-times"></i></span></button>
-  </div>
-  <div class="page-control__settings">
-    <div class="themes__header">Выберите тему</div>
-    <div class="themes">
-      <div class="theme theme-default"><button></button></div>
-      <div class="theme theme-blue"><button></button></div>
-      <div class="theme theme-white"><button></button></div>
-    </div>
-    <div class="lang__header">Выберите язык</div>
-    <div class="langs">
-      <div class="lang lang-ru"><button></button></div>
-      <div class="lang lang-en"><button></button></div>
-    </div>
-  </div>
-
-  <main>
-
-    <section class="teammates-section">
+  <body>
+    <header class="hero">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-left" data-aos-delay="200">Наша команда</h2>
-        <div class="teammates-wrapper">
-          <div class="teammate">
-            <div class="teammate__img" data-aos="fade-down" data-aos-delay="200"><img src="img/teammates/gregor2.png" alt=""></div>
-            <div class="teammae__caption">Григорий Каданер</div>
-            <div class="teammae__description">Front-End Developer</div>
-          </div>
-          <div class="teammate">
-            <div class="teammate__img" data-aos="fade-down" data-aos-delay="300"><img src="img/teammates/alex.png" alt=""></div>
-            <div class="teammae__caption">Александр Гуран</div>
-            <div class="teammae__description">Front-End Developer</div>
-          </div>
-          <div class="teammate">
-            <div class="teammate__img" data-aos="fade-down" data-aos-delay="400"><img src="img/teammates/denis.png" alt=""></div>
-            <div class="teammae__caption">Денис Тухто</div>
-            <div class="teammae__description">Front-End Developer</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="features section">
-      <div class="container">
-        <h2 class="section-title" data-aos="fade-up">
-          Со мной удобно работать
-        </h2>
-        <div class="features-block">
-          <div class="features-item">
-            <img src="img/features/offer-img.svg" alt="По договору" class="features-image" data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">По договору</h3>
-            <p class="features-text" data-aos="fade-up">
-              Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/deadline-img.svg" alt="Точно в срок" class="features-image" data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">Точно в срок</h3>
-            <p class="features-text" data-aos="fade-up">
-              В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/agreement-img.svg" alt="Ценник под вас" class="features-image" data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">Ценник под вас</h3>
-            <p class="features-text" data-aos="fade-up">
-              Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/steps-img.svg" alt="Премежуточные итоги" class="features-image" data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">
-              Премежуточные итоги
-            </h3>
-            <p class="features-text" data-aos="fade-up">
-              Показываю работу поэтапно, а не в последий момент перед крайним сроком.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/storage-img.svg" alt="Хостинг и домен " class="features-image" data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">Хостинг и домен</h3>
-            <p class="features-text" data-aos="fade-up">
-              Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/conversation-img.svg" alt="Не брошу после сдачи" class="features-image"
-              data-aos="fade-up" />
-            <h3 class="features-title" data-aos="fade-up">Не брошу после сдачи</h3>
-            <p class="features-text" data-aos="fade-up">
-              Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /.features -->
-
-    <section class="section projects">
-      <div class="container">
-        <h2 class="section-title">Последние проекты</h2>
-
-        <div class="swiper-container projects-slider">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">
-                  Сайт строительной фирмы “Велстрой”
-                </h3>
-                <div class="project-time">
-                  <img src="img/time-icon.svg" alt="Срок" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Срок</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
-                  </div>
-                </div>
-                <!-- /.project-time -->
-                <div class="project-cost">
-                  <img src="img/cost-icon.svg" alt="Цена" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
-                  </div>
-                </div>
-                <!-- /.project-cost -->
-                <div class="project-feedback">
-                  <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">
-                      Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения,
-                      когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке
-                    </p>
-                  </div>
-                </div>
-                <!-- /.projects-feedback -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">
-                  Сайт строительной фирмы A3Express
-                </h3>
-                <div class="project-time">
-                  <img src="img/time-icon.svg" alt="Срок" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Срок</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
-                  </div>
-                </div>
-                <!-- /.project-time -->
-                <div class="project-cost">
-                  <img src="img/cost-icon.svg" alt="Цена" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
-                  </div>
-                </div>
-                <!-- /.project-cost -->
-                <div class="project-feedback">
-                  <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">
-                      Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения,
-                      когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке
-                    </p>
-                  </div>
-                </div>
-                <!-- /.projects-feedback -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">
-                  Сайт строительной фирмы A3Express
-                </h3>
-                <div class="project-time">
-                  <img src="img/time-icon.svg" alt="Срок" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Срок</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
-                  </div>
-                </div>
-                <!-- /.project-time -->
-                <div class="project-cost">
-                  <img src="img/cost-icon.svg" alt="Цена" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
-                  </div>
-                </div>
-                <!-- /.project-cost -->
-                <div class="project-feedback">
-                  <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon" />
-                  <div class="project-decription">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">
-                      Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения,
-                      когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке
-                    </p>
-                  </div>
-                </div>
-                <!-- /.projects-feedback -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-          </div>
-          <!-- If we need pagination -->
-          <div class="projects-pagination"></div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="section">
-    <div class="container">
-      <h2 class="section-title">Свяжитесь со мной</h2>
-      <div class="contacts-block">
-        <form action="#" class="contacts-form">
-          <h4 class="form-title">
-            Можете просто оставить заявку, я позвоню вам сегодня
-          </h4>
-          <input type="text" class="input input-name" placeholder="Ваше имя" />
-          <input type="text" class="input input-phone" placeholder="Ваш телефон" />
-          <div class="wrapper">
-            <a href="#" class="wave-btn">
-              <span class="wave-btn__text">Консультация</span>
-              <span class="wave-btn__waves"></span>
-            </a>
-          </div>
-        </form>
-        <div class="contacts-text">
-          <div class="contacts-data">
-            <div class="contacts-phone">
-              <h4 class="contacts-title">Телефон</h4>
-              <a href="tel:+380689520146" class="contacts-link">+380 68 952-01-46</a>
-            </div>
-            <!-- /.contacts-phone -->
-            <div class="contacts-mail">
-              <h4 class="contacts-title">Почта</h4>
-              <a href="mailto:de4ik18@gmail.com" class="contacts-link">de4ik18@gmail.com</a>
-            </div>
-            <!-- /.contacts-mail -->
-            <div class="contacts-social">
-              <h4 class="contacts-title">Соцсети</h4>
-              <a href="https://t.me/Denis_Tukhto" target="_blank" class="contacts-link">Telegram</a>
-              <a href="https://vk.com/denistukhto" target="_blank" class="contacts-link">VK</a>
-            </div>
-            <!-- /.contacts-social -->
-          </div>
-          <!-- /.contacts-data -->
+        <div class="hero-header">
+          <h3 class="logo">Perfection Studio</h3>
           <div class="social-links">
-            <a href="https://github.com/KingOfAllK1ngs" class="social-link" target="_blank"><img
-                src="img/social/github.svg" alt="github" /></a>
+            <a
+              href="https://github.com/KingOfAllK1ngs"
+              class="social-link"
+              target="_blank"
+              ><img src="img/social/github.svg" alt="github"
+            /></a>
 
-            <a href="https://twitter.com/DenisTukhto" class="social-link" target="_blank"><img
-                src="img/social/twitter.svg" alt="twitter" /></a>
+            <a
+              href="https://twitter.com/DenisTukhto"
+              class="social-link"
+              target="_blank"
+              ><img src="img/social/twitter.svg" alt="twitter"
+            /></a>
 
-            <a href="https://www.instagram.com/dead.inside.perfection.studio/" class="social-link" target="_blank"><img
-                src="img/social/instagram.svg" alt="instagram" /></a>
-            <a href="https://www.facebook.com/TukhtoDenis/" class="social-link" target="_blank"><img
-                src="img/social/facebook.svg" alt="fb" /></a>
+            <a
+              href="https://www.instagram.com/perfection.studio.official/"
+              class="social-link"
+              target="_blank"
+              ><img src="img/social/instagram.svg" alt="instagram"
+            /></a>
+            <a
+              href="https://www.facebook.com/TukhtoDenis/"
+              class="social-link"
+              target="_blank"
+              ><img src="img/social/facebook.svg" alt="fb"
+            /></a>
           </div>
           <!-- /.social-links -->
-          <a href="#" class="contacts-policy">Политика конфиденциальности</a>
         </div>
-        <!-- /.contacts-text -->
-      </div>
-      <!-- /.contacts-block -->
-    </div>
-  </footer>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js" type="module"></script>
-  <script src="https://ithub-coworking.com/fontawesome/js/all.min.js"></script>
-</body>
+        <!-- /.hero-header -->
 
+        <div class="hero-content">
+          <div class="hero-text">
+            <span
+              class="hero-subtitle"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              >Фриланс компания</span
+            >
+            <h1 class="hero-title" data-aos="fade-left" data-aos-delay="400">
+              Perfection Studio
+            </h1>
+            <p
+              class="hero-description"
+              data-aos="fade-left"
+              data-aos-delay="600"
+            >
+              Разработка сайтов для малого и среднего бизнеса. У нас можно
+              заказать дизайн и верстку небольшого сайта или лендинга.
+            </p>
+            <button
+              class="button hero-button"
+              data-aos="fade-left"
+              data-aos-delay="800"
+            >
+              Консультация
+            </button>
+          </div>
+          <!-- /.hero-text -->
+          <div class="hero-avatar" data-aos="zoom-in" data-aos-delay="1400">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <!-- /.hero-avatar -->
+        </div>
+        <!-- /.hero-content -->
+      </div>
+      <!-- /.container -->
+    </header>
+
+    <div class="page-controls">
+      <button>
+        <span class="cogs block"><i class="fas fa-cogs"></i></span
+        ><span class="cross"><i class="fal fa-times"></i></span>
+      </button>
+    </div>
+    <div class="page-control__settings">
+      <div class="themes__header">Выберите тему</div>
+      <div class="themes">
+        <div class="theme theme-default"><button></button></div>
+        <div class="theme theme-blue"><button></button></div>
+        <div class="theme theme-white"><button></button></div>
+      </div>
+      <div class="lang__header">Выберите язык</div>
+      <div class="langs">
+        <div class="lang lang-ru"><button></button></div>
+        <div class="lang lang-en"><button></button></div>
+      </div>
+    </div>
+
+    <main>
+      <section class="teammates-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-left" data-aos-delay="200">
+            Наша команда
+          </h2>
+          <div class="teammates-wrapper">
+            <div class="teammate">
+              <div
+                class="teammate__img"
+                data-aos="fade-down"
+                data-aos-delay="200"
+              >
+                <img src="img/teammates/gregor2.png" alt="" />
+              </div>
+              <div class="teammae__caption">Григорий Каданер</div>
+              <div class="teammae__description">Front-End Developer</div>
+            </div>
+            <div class="teammate">
+              <div
+                class="teammate__img"
+                data-aos="fade-down"
+                data-aos-delay="300"
+              >
+                <img src="img/teammates/alex.png" alt="" />
+              </div>
+              <div class="teammae__caption">Александр Гуран</div>
+              <div class="teammae__description">Front-End Developer</div>
+            </div>
+            <div class="teammate">
+              <div
+                class="teammate__img"
+                data-aos="fade-down"
+                data-aos-delay="400"
+              >
+                <img src="img/teammates/denis.png" alt="" />
+              </div>
+              <div class="teammae__caption">Денис Тухто</div>
+              <div class="teammae__description">Front-End Developer</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">
+            С нами удобно работать
+          </h2>
+          <div class="features-block">
+            <div class="features-item">
+              <img
+                src="img/features/offer-img.svg"
+                alt="По договору"
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">По договору</h3>
+              <p class="features-text" data-aos="fade-up">
+                Предоставим все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/deadline-img.svg"
+                alt="Точно в срок"
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">Точно в срок</h3>
+              <p class="features-text" data-aos="fade-up">
+                В договоре прописана наша ответственность за срок проекта. Если
+                просрочим — платим неустойку.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/agreement-img.svg"
+                alt="Ценник под вас"
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">Ценник под вас</h3>
+              <p class="features-text" data-aos="fade-up">
+                Если у вас нетиповой проект, сделаем рассчет цены за работу и
+                объясним, как складывается цена.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/steps-img.svg"
+                alt="Премежуточные итоги"
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">
+                Премежуточные итоги
+              </h3>
+              <p class="features-text" data-aos="fade-up">
+                Показываем работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/storage-img.svg"
+                alt="Хостинг и домен "
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">Хостинг и домен</h3>
+              <p class="features-text" data-aos="fade-up">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/conversation-img.svg"
+                alt="Не брошу после сдачи"
+                class="features-image"
+                data-aos="fade-up"
+              />
+              <h3 class="features-title" data-aos="fade-up">
+                Не брошу после сдачи
+              </h3>
+              <p class="features-text" data-aos="fade-up">
+                Научим вас или вашего сотрудника пользоваться сайтом, запишем
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.features -->
+
+      <section class="section projects">
+        <div class="container">
+          <h2 class="section-title">Последние проекты</h2>
+
+          <div class="swiper-container projects-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">
+                    Сайт строительной фирмы “Велстрой”
+                  </h3>
+                  <div class="project-time">
+                    <img
+                      src="img/time-icon.svg"
+                      alt="Срок"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Срок</h4>
+                      <p class="project-paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project-time -->
+                  <div class="project-cost">
+                    <img
+                      src="img/cost-icon.svg"
+                      alt="Цена"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Цена</h4>
+                      <p class="project-paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project-cost -->
+                  <div class="project-feedback">
+                    <img
+                      src="img/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Отзыв клиента</h4>
+                      <p class="project-paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.projects-feedback -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">
+                    Сайт строительной фирмы A3Express
+                  </h3>
+                  <div class="project-time">
+                    <img
+                      src="img/time-icon.svg"
+                      alt="Срок"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Срок</h4>
+                      <p class="project-paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project-time -->
+                  <div class="project-cost">
+                    <img
+                      src="img/cost-icon.svg"
+                      alt="Цена"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Цена</h4>
+                      <p class="project-paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project-cost -->
+                  <div class="project-feedback">
+                    <img
+                      src="img/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Отзыв клиента</h4>
+                      <p class="project-paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.projects-feedback -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/project-img.png"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">
+                    Сайт строительной фирмы A3Express
+                  </h3>
+                  <div class="project-time">
+                    <img
+                      src="img/time-icon.svg"
+                      alt="Срок"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Срок</h4>
+                      <p class="project-paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project-time -->
+                  <div class="project-cost">
+                    <img
+                      src="img/cost-icon.svg"
+                      alt="Цена"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Цена</h4>
+                      <p class="project-paragraph">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.project-cost -->
+                  <div class="project-feedback">
+                    <img
+                      src="img/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="project-icon"
+                    />
+                    <div class="project-decription">
+                      <h4 class="project-subtitle">Отзыв клиента</h4>
+                      <p class="project-paragraph">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.projects-feedback -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="projects-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section">
+      <div class="container">
+        <h2 class="section-title">Свяжитесь с нами</h2>
+        <div class="contacts-block">
+          <form action="#" class="contacts-form">
+            <h4 class="form-title">
+              Можете просто оставить заявку, мы позвоню Вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input-phone"
+              placeholder="Ваш телефон"
+            />
+            <div class="wrapper">
+              <a href="#" class="wave-btn">
+                <span class="wave-btn__text">Консультация</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+          </form>
+          <div class="contacts-text">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+380689520146" class="contacts-link"
+                  >+380 68 952-01-46</a
+                >
+              </div>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a
+                  href="mailto:perfection.studio.official@gmail.com"
+                  class="contacts-link"
+                  >perfection.studio.official@gmail.com</a
+                >
+              </div>
+              <!-- /.contacts-mail -->
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соцсети</h4>
+                <a
+                  href="https://t.me/Denis_Tukhto"
+                  target="_blank"
+                  class="contacts-link"
+                  >Telegram</a
+                >
+                <a
+                  href="https://vk.com/denistukhto"
+                  target="_blank"
+                  class="contacts-link"
+                  >VK</a
+                >
+              </div>
+              <!-- /.contacts-social -->
+            </div>
+            <!-- /.contacts-data -->
+            <div class="social-links">
+              <a
+                href="https://github.com/KingOfAllK1ngs"
+                class="social-link"
+                target="_blank"
+                ><img src="img/social/github.svg" alt="github"
+              /></a>
+
+              <a
+                href="https://twitter.com/DenisTukhto"
+                class="social-link"
+                target="_blank"
+                ><img src="img/social/twitter.svg" alt="twitter"
+              /></a>
+
+              <a
+                href="https://www.instagram.com/perfection.studio.official/"
+                class="social-link"
+                target="_blank"
+                ><img src="img/social/instagram.svg" alt="instagram"
+              /></a>
+              <a
+                href="https://www.facebook.com/TukhtoDenis/"
+                class="social-link"
+                target="_blank"
+                ><img src="img/social/facebook.svg" alt="fb"
+              /></a>
+            </div>
+            <!-- /.social-links -->
+            <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+          </div>
+          <!-- /.contacts-text -->
+        </div>
+        <!-- /.contacts-block -->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="https://ithub-coworking.com/fontawesome/js/all.min.js"></script>
+  </body>
 </html>
