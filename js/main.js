@@ -26,7 +26,7 @@ AOS.init({
 
 });
 
-var mySwiper = new Swiper('.swiper-container', {
+let mySwiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.projects-pagination',
         bulletClass: 'projects-bullet',
@@ -53,7 +53,7 @@ langEN.addEventListener('click', () => {
     setTimeout(() => {
         document.body.classList.remove('opacity-color-change');
     }, 300);
-    
+
 });
 langRU.addEventListener('click', () => {
     document.body.classList.add('opacity-color-change');
@@ -67,22 +67,45 @@ langRU.addEventListener('click', () => {
     setTimeout(() => {
         document.body.classList.remove('opacity-color-change');
     }, 300);
-    
+
 });
 
 if (localStorage.getItem('lang') == "ru") {
     document.getElementsByTagName('html')[0].setAttribute('lang', 'ru');
     chooseLang();
-    
-} else if (localStorage.getItem('lang') == "en") {    
+
+} else if (localStorage.getItem('lang') == "en") {
     document.getElementsByTagName('html')[0].setAttribute('lang', 'en');
     chooseLang();
-    
-}
 
-document.querySelector('.hero-button').addEventListener('click', ()=>{
-    let elem = document.querySelector('#form');
-    elem.scrollIntoView({block:'start', behavior:'smooth'});
+}
+// Smooth scrolling
+function animate(elem, style, unit, from, to, time, prop) {
+    if (!elem) {
+        return;
+    }
+    let start = new Date().getTime(),
+        timer = setInterval(function () {
+            let step = Math.min(1, (new Date().getTime() - start) / time);
+            if (prop) {
+                elem[style] = (from + step * (to - from))+unit;
+            } else {
+                elem.style[style] = (from + step * (to - from))+unit;
+            }
+            if (step === 1) {
+                clearInterval(timer);
+            }
+        }, 0);
+    if (prop) {
+          elem[style] = from+unit;
+    } else {
+          elem.style[style] = from+unit;
+    }
+}
+document.querySelector('.hero-button').addEventListener('click', () => {
+    
+    let target = document.getElementById("form");
+    animate(document.scrollingElement || document.documentElement, "scrollTop", "", 0, target.offsetTop, 500, true);
 });
 
 pageSettingsFunction();
