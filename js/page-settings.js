@@ -77,14 +77,18 @@ export const pageSettingsFunction = () => {
                 teammaeDescription.forEach(item=>{
                     item.style.cssText = `color:${textColoursArray[i]};`;
                 });
+                document.querySelector('.contacts-form').style.cssText = "outline:gray solid 1px ;";
 
-                nowSettings.body = document.body.style.backgroundColor = coloursArray[i];;
+                nowSettings.body = document.body.style.backgroundColor = coloursArray[i];
                 nowSettings.hero = classHero.style.cssText;
                 nowSettings.projects = projects.style.cssText;
                 nowSettings.featuresContainer = featuresContainer.style.cssText;
                 nowSettings.footer = footer.style.cssText;
                 nowSettings.pageControlSettings = pageControlSettings.style.cssText;
                 nowSettings.settingsHeader = settingsHeader.style.cssText;
+                nowSettings.form_outline = document.querySelector('.contacts-form').style.cssText = "outline:gray solid 1px ;";
+
+
                 localStorage.setItem('Site Settings', JSON.stringify(nowSettings));
 
             }, 200);
@@ -108,7 +112,8 @@ export const pageSettingsFunction = () => {
                 allTexts: parsedData.allTexts,
                 socialLinks: parsedData.socialLinks,
                 pageControlSettings: parsedData.pageControlSettings,
-                settingsHeader: parsedData.settingsHeader
+                settingsHeader: parsedData.settingsHeader,
+                form_outline:parsedData.form_outline
             };
             document.body.style.backgroundColor = Settings.body;
             classHero.style.cssText = Settings.hero;
@@ -121,6 +126,7 @@ export const pageSettingsFunction = () => {
             socialLinks.forEach(item => {
                 item.style.cssText = Settings.socialLinks;
             });
+            document.querySelector('.contacts-form').style.cssText = Settings.form_outline;
             pageControlSettings.style.cssText = Settings.pageControlSettings;
             settingsHeader.style.cssText = Settings.settingsHeader;
         }
