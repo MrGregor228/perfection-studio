@@ -82,7 +82,7 @@ if (localStorage.getItem('lang') == "ru") {
 
 document.querySelector('.hero-button').addEventListener('click', ()=>{
     let elem = document.querySelector('#form');
-    elem.scrollIntoView();
+    elem.scrollIntoView({block:'start', behavior:'smooth'});
 });
 
 pageSettingsFunction();
