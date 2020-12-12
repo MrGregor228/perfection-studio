@@ -18,12 +18,12 @@
             "Последние проекты",
             "Свяжитесь с нами"
         ],
-        "teammae__caption": [
+        "teammae__caption p": [
             "Григорий Каданер",
             "Александр Гуран",
             "Денис Тухто"
         ],
-        "teammae__description": [
+        "teammae__description p": [
             "Front-End разработчик, Web дизайнер",
             "WordPress специалист, Front-End разработчик",
             "SEO оптимизация, Front-End разработчик"

@@ -548,7 +548,7 @@ a {
   cursor: pointer;
 }
 .teammates-section {
-  background-color: transparent;
+  background-color: #000;
 }
 .teammates-section .teammates-wrapper {
   display: flex;

@@ -102,8 +102,7 @@ function animate(elem, style, unit, from, to, time, prop) {
           elem.style[style] = from+unit;
     }
 }
-document.querySelector('.hero-button').addEventListener('click', () => {
-    
+document.querySelector('.hero-button').addEventListener('click', () => {    
     let target = document.getElementById("form");
     animate(document.scrollingElement || document.documentElement, "scrollTop", "", 0, target.offsetTop, 500, true);
 });

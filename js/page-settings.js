@@ -14,25 +14,28 @@ export const pageSettingsFunction = () => {
 
         teammatesSection = document.querySelector('.teammates-section'),
         teammatesCaptions = document.querySelectorAll('.teammae__caption'),
-        teammaeDescription = document.querySelectorAll('.teammae__description'),
+        teammatesDescription = document.querySelectorAll('.teammae__description'),
 
         projects = document.querySelector('.projects'),
         featuresContainer = document.querySelector('section.features.section'),
         footer = document.querySelector('footer'),
         allTexts = document.querySelectorAll('h1,h2,h3,h4,h5,h6,p,a'),
         socialLinks = document.querySelectorAll('.social-links'),
-        settingsHeader = document.querySelector('.themes__header');
+        settingsHeader = document.querySelector('.themes__header'),
+        langsHeader = document.querySelector('.lang__header');
 
     let nowSettings = {
         body: "",
         hero: "",
         projects: "",
         featuresContainer: "",
+        teamSection: "",
         footer: "",
         allTexts: "",
         socialLinks: "",
         pageControlSettings: "",
-        settingsHeader: ""
+        settingsHeader: "",
+        langsHeader: ""
     };
 
     pageControlsBtn.addEventListener('click', () => {
@@ -69,12 +72,13 @@ export const pageSettingsFunction = () => {
 
                 pageControlSettings.style.cssText = `background-color:rgba(${settingsColorsArray[i]});`;
                 settingsHeader.style.cssText = `color:${settingsHeaderColorsArray[i]};`;
+                langsHeader.style.cssText = `color:${settingsHeaderColorsArray[i]};`;
 
                 teammatesSection.style.cssText = `background-color:${coloursArray[i]};`;
                 teammatesCaptions.forEach(item=>{
                     item.style.cssText = `color:${textColoursArray[i]};`;
                 });
-                teammaeDescription.forEach(item=>{
+                teammatesDescription.forEach(item=>{
                     item.style.cssText = `color:${textColoursArray[i]};`;
                 });
                 document.querySelector('.contacts-form').style.cssText = "outline:gray solid 1px ;";
@@ -83,9 +87,13 @@ export const pageSettingsFunction = () => {
                 nowSettings.hero = classHero.style.cssText;
                 nowSettings.projects = projects.style.cssText;
                 nowSettings.featuresContainer = featuresContainer.style.cssText;
-                nowSettings.footer = footer.style.cssText;
+
+                nowSettings.teamSection = teammatesSection.style.cssText;
+
+                nowSettings.footer = footer.style.cssText;                
                 nowSettings.pageControlSettings = pageControlSettings.style.cssText;
                 nowSettings.settingsHeader = settingsHeader.style.cssText;
+                nowSettings.langsHeader = langsHeader.style.cssText;
                 nowSettings.form_outline = document.querySelector('.contacts-form').style.cssText = "outline:gray solid 1px ;";
 
 
@@ -108,11 +116,15 @@ export const pageSettingsFunction = () => {
                 hero: parsedData.hero,
                 projects: parsedData.projects,
                 featuresContainer: parsedData.featuresContainer,
-                footer: parsedData.footer,
+                
+                teamSection: parsedData.teamSection,
+
+                footer: parsedData.footer,                
                 allTexts: parsedData.allTexts,
                 socialLinks: parsedData.socialLinks,
                 pageControlSettings: parsedData.pageControlSettings,
                 settingsHeader: parsedData.settingsHeader,
+                langsHeader: parsedData.langsHeader,
                 form_outline:parsedData.form_outline
             };
             document.body.style.backgroundColor = Settings.body;
@@ -120,15 +132,20 @@ export const pageSettingsFunction = () => {
             projects.style.cssText = Settings.projects;
             featuresContainer.style.cssText = Settings.featuresContainer;
             footer.style.cssText = Settings.footer;
+
+            teammatesSection.style.cssText = Settings.teamSection;
+
             allTexts.forEach(item => {
                 item.style.color = Settings.allTexts;
             });
+
             socialLinks.forEach(item => {
                 item.style.cssText = Settings.socialLinks;
             });
             document.querySelector('.contacts-form').style.cssText = Settings.form_outline;
             pageControlSettings.style.cssText = Settings.pageControlSettings;
             settingsHeader.style.cssText = Settings.settingsHeader;
+            langsHeader.style.cssText = Settings.langsHeader;
         }
     });
 };
