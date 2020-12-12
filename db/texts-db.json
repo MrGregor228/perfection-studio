@@ -96,12 +96,12 @@
             "Recent projects",
             "Get into contact with me"
         ],
-        "teammae__caption": [
+        "teammae__caption p": [
             "Gregory Kadaner",
             "Alex Huran",
             "Denis Tukhto"
         ],
-        "teammae__description": [
+        "teammae__description p": [
             "Front-End Developer, Web Designer",
             "Front-End/WordPress Developer",
             "Front-End Developer, SEO-optimizer"
